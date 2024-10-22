@@ -1,0 +1,15 @@
+.meetings {
+    /* border: 1px solid black; */
+    /* padding-top: ; */
+}
+.meetings-heading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.meetings-container {
+    display: flex;
+    flex-direction: column;
+}

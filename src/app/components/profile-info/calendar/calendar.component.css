@@ -6,7 +6,8 @@
 
 .calendar {
   width: 316px;
-  margin-top: 42px;
+  /* border: 1px solid black; */
+  /* margin-top: 42px; */
 }
 
 button {

@@ -1,0 +1,28 @@
+.meeting {
+    width: 316px;
+    height: 86px;
+    border-radius: 10px;
+    background-color: #8A70D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 14.06px 19px 34px;
+    
+}
+.meeting:not(:first-child) {
+    margin-top: 10px;
+}
+
+.meeting-info .meeting-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    color: #FBFBFB;
+}
+
+.meeting-info .total-lessons {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: #B7B7B7;
+}

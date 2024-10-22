@@ -1,0 +1,17 @@
+@for (meeting of upcomingMeetings; track $index) {
+    <div class="meeting"  [ngStyle]="{'background-color': meeting.backgroundColor}">
+        <div class="meeting-info">
+            <div class="meeting-title" [ngStyle]="{'color': meeting.color}">{{meeting.name}}</div>
+            <div class="total-lessons">{{meeting.lessons}}</div>
+        </div>
+        <svg class="meeting-navigate-btn" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect x="31.0645" y="29.9804" width="30" height="30" transform="rotate(177.929 31.0645 29.9804)" fill="url(#pattern0_4_255)"/>
+            <defs>
+            <pattern id="pattern0_4_255" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_4_255" transform="scale(0.00195312)"/>
+            </pattern>
+            <image id="image0_4_255" width="512" height="512"/>
+            </defs>
+            </svg>
+    </div>
+}
