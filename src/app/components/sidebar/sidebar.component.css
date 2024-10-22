@@ -1,0 +1,93 @@
+.wrapper {
+    width: 310px;
+    height: 995px;
+    background-color:#FBFBFB;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    height: 51px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+}
+
+.logo-icons {
+    width: 100px;
+    height: 40px;
+    position: relative;
+}
+
+.up-arrow{
+
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    
+    border-right: 26.5px solid transparent; 
+    border-left: 26.5px solid transparent; 
+  
+    border-bottom: 40px solid #8A70D6; 
+    /* (border-left-width 26.5px + border-right-width 26.5px) * 0.8660254 ≈ 51px */
+  }
+.down-arrow {
+    position: absolute;
+    left: 35px;
+    width: 0;
+    height: 0;
+  
+    border-left: 26.5px solid transparent; 
+    border-right: 26.5px solid transparent; 
+  
+    border-top: 40px solid #DDD4FF;
+    ; 
+    /* (border-left-width 26.5px + border-right-width 26.5px) * 0.8660254 = ~51px for downward triangle */
+  }
+  
+
+
+.logoName {
+    font-weight: 600;
+    font-family: "Inter";
+    top: 52px;
+    left: 128px;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.sidebar-button {
+    all: unset;
+    display: flex;
+    width: 175px;
+    height: 47px;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif; /* Add a fallback font */
+    font-size: 16px;
+    gap: 15px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+  width: 27px;
+  height: 25px;
+}
+
+.sidebar-button--active {
+    background-color: #E9E3FF;
+}
+
+

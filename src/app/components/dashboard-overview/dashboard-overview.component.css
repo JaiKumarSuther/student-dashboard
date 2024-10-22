@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+}
+.dashboard-content {
+    width: 746px;
+    height: 995px;
+    padding-top: 50px;
+}
+
+.welcome-user {
+    font-size: 22px;
+    font-weight: 500; 
+    line-height: 26.63px;
+}
+
+.enrolled-courses {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    margin-top: 80px;
+}
+
+.class-leaderboard {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    margin-top: 50px;
+}

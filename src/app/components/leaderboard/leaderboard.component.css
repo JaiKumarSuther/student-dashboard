@@ -1,0 +1,54 @@
+
+.student-item {
+    display: flex;
+    width: 746px;
+    height: 91px;
+    border-radius: 20px;
+    border: 1px solid #F9F4F4;
+    margin-top: 10px;
+    padding: 11px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.student-image {
+    width: 72px;
+    height: 72px;
+    background-color: #FFF0E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.student-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.student-name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+}
+
+.student-grade {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: #B7B7B7;
+}
+
+.student-score {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+}

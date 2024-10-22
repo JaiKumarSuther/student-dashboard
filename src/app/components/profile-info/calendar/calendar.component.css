@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.calendar {
+  width: 316px;
+  margin-top: 42px;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.calendar-header {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  align-items: center;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.calendar-body {
+  padding: 10px;
+}
+
+.calendar-week-days,
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-week-days div,
+.calendar-days div {
+  display: grid;
+  place-items: center;
+}
+
+.calendar-week-days {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin-bottom: 25px;
+}
+
+.calendar-days div {
+  width: 37px;
+  height: 33px;
+  cursor: pointer;
+  position: relative;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 19.36px;
+}
+
+
+
+.calendar-days div.current-date {
+  color: #f8fbff;
+  background-color: #9796f0;
+  border-radius: 20%;
+}
+
+.other-month-day {
+  color: #B7B7B7;
+}
+
+.year-picker {
+  display: flex;
+  align-items: center;
+}
+
+.year-change {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.month-year{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.63px;
+}
+
+.btn {
+  cursor: pointer;
+}
