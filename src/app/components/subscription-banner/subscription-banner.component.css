@@ -5,12 +5,12 @@
     border-radius: 10px;
     background-color: #E9E3FF;
     position: relative;
+    gap: 14px;
+    padding: 20px;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 15px;
-    padding: 20px;
-    flex-direction: column;
 }
 
 .premium-icon {
@@ -20,15 +20,15 @@
 }
 
 .premium-heading {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 21.78px;
 }
 
 .premium-para {
     text-align: center;
+    width: 189px;
 }
-
 .premium-details {
     all: unset;
     width: 189px;

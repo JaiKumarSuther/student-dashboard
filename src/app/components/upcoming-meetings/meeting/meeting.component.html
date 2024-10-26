@@ -1,5 +1,5 @@
 @for (meeting of upcomingMeetings; track $index) {
-    <div class="meeting"  [ngStyle]="{'background-color': meeting.backgroundColor}">
+    <div class="meeting-item"  [ngStyle]="{'background-color': meeting.backgroundColor}">
         <div class="meeting-info">
             <div class="meeting-title" [ngStyle]="{'color': meeting.color}">{{meeting.name}}</div>
             <div class="total-lessons">{{meeting.lessons}}</div>

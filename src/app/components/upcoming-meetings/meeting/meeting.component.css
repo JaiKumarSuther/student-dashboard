@@ -1,4 +1,4 @@
-.meeting {
+.meeting-item {
     width: 316px;
     height: 86px;
     border-radius: 10px;
@@ -9,8 +9,8 @@
     padding: 19px 14.06px 19px 34px;
     
 }
-.meeting:not(:first-child) {
-    margin-top: 10px;
+.meeting-item{
+    margin-bottom: 10px;
 }
 
 .meeting-info .meeting-title {

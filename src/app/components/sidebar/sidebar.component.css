@@ -4,7 +4,7 @@
     background-color:#FBFBFB;
     padding: 40px;
     box-sizing: border-box;
-    margin-right: 10px;
+    margin-right: 4px;
 }
 
 .logo {
@@ -77,8 +77,8 @@
     gap: 15px;
     box-sizing: border-box;
     padding-left: 20px;
-    align-items: center;
     cursor: pointer;
+    align-items: center;
 }
 
 .icon {
@@ -91,3 +91,12 @@
 }
 
 
+.sidebar-button p {
+    vertical-align: middle;
+    margin-top: 0; 
+    margin-bottom: 0; 
+}
+
+.icon {
+    vertical-align: middle;
+}

@@ -6,8 +6,9 @@
 
 .calendar {
   width: 316px;
-  /* border: 1px solid black; */
-  /* margin-top: 42px; */
+  padding-top: 0;
+  /* border: 5px solid rgb(0, 191, 255); */
+  height: 300px;
 }
 
 button {
@@ -19,14 +20,12 @@ button {
   color: black;
   display: flex;
   justify-content: space-between;
-  border-radius: 7px;
+  /* border-radius: 7px; */
   align-items: center;
   font-weight: 700;
-  padding: 10px;
-}
-
-.calendar-body {
-  padding: 10px;
+  /* border: 1px solid black; */
+  padding: 0;
+  padding-bottom: 25px;
 }
 
 .calendar-week-days,
@@ -41,12 +40,15 @@ button {
   place-items: center;
 }
 
+
 .calendar-week-days {
   font-weight: 400;
   font-size: 16px;
   line-height: 19.36px;
-  margin-bottom: 25px;
+  /* border: 1px solid black; */
+  padding-bottom: 25px;
 }
+
 
 .calendar-days div {
   width: 37px;
@@ -57,8 +59,6 @@ button {
   font-weight: 700;
   line-height: 19.36px;
 }
-
-
 
 .calendar-days div.current-date {
   color: #f8fbff;
@@ -92,4 +92,34 @@ button {
 
 .btn {
   cursor: pointer;
+}
+
+
+.month-picker-buttons {
+  display: flex;
+  align-items: center;
+  padding-left: 1px;
+  padding-left: 1px;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px; /* Adjust the gap size as needed */
+}
+
+.calendar-days div {
+  display: flex;
+  justify-content: center; /* Center align the date within each cell */
+  align-items: center;
+  width: 100%; /* Ensure the div spans the full cell width */
+  height: 33px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 19.36px;
+}
+
+.calendar-body {
+  margin-bottom: 25px;
 }
