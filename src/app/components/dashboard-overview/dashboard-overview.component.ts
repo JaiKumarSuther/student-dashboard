@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { EnrolledCoursesComponent } from "../enrolled-courses/enrolled-courses.component";
-import { LeaderboardComponent } from "../leaderboard/leaderboard.component";
-import { ProfileInfoComponent } from "../profile-info/profile-info.component";
+import { EnrolledCoursesComponent } from './enrolled-courses/enrolled-courses.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { ProfileInfoComponent } from './enrolled-courses/profile-info/profile-info.component';
 
 @Component({
   selector: 'app-dashboard-overview',

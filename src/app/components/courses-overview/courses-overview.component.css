@@ -1,0 +1,17 @@
+.welcome-std {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    line-height: 30.26px;
+    margin-top: 52px;
+    margin-bottom: 26px;
+}
+
+.completed-modules-heading {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    line-height: 30.26px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+}

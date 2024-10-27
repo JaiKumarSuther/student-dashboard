@@ -88,6 +88,7 @@ button {
   font-size: 22px;
   font-weight: 500;
   line-height: 26.63px;
+  padding-left: 1px;
 }
 
 .btn {
@@ -98,8 +99,8 @@ button {
 .month-picker-buttons {
   display: flex;
   align-items: center;
-  padding-left: 1px;
-  padding-left: 1px;
+  /* border: 1px solid black; */
+  gap: 5px;
 }
 
 .calendar-days {

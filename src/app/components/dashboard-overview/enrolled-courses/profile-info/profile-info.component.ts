@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CalendarComponent } from "./calendar/calendar.component";
-import { UpcomingMeetingsComponent } from "../upcoming-meetings/upcoming-meetings.component";
-
+import { UpcomingMeetingsComponent } from '../../upcoming-meetings/upcoming-meetings.component';
 @Component({
   selector: 'app-profile-info',
   standalone: true,

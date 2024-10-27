@@ -9,6 +9,7 @@
     padding: 11px;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .student-details {

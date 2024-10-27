@@ -1,0 +1,95 @@
+.progress-overview {
+    width: 1106px;
+    height: 366px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 42px;
+  }
+  
+  .progress-heading {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30.26px;
+    color: black;
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .progress-sub-heading {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21.78px;
+    color: #7E7D7D;
+    margin-bottom: 46px;
+    width: 616px;
+  }
+  
+  .learning-journey {
+    display: flex;
+    margin-left: 4px;
+    gap: 73px;
+  }
+  
+  .journey-element {
+    
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .journey-heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    color: #413E3E;
+  }
+  
+  .journey-completion {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+  }
+  
+  .box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progress-circle {
+    transform: rotate(-90deg);
+  }
+  
+  .progress-bg,
+  .progress-fill {
+    fill: none;
+    stroke-width: 8px;
+  }
+  
+  .progress-bg {
+    stroke: #000000;
+  }
+  
+  .progress-fill {
+    stroke: #FBAB5D;
+    stroke-dasharray: 283; /* Approximate circumference for r=45 */
+    stroke-dashoffset: 283; /* Initially hide the stroke */
+    transition: stroke-dashoffset 0.3s;
+  }
+  
+
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
