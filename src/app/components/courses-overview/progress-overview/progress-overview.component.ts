@@ -13,7 +13,7 @@ export class ProgressOverviewComponent implements AfterViewInit {
 
   // Completion data for each section
   completionData = [
-    { title: 'Modules', completed: 10, total: 10, color: '#6DBAFD', url: "https://icons.veryicon.com/png/o/system/background-system-2/common-module.png" },
+    { title: 'Modules', completed: 5, total: 10, color: '#6DBAFD', url: "https://icons.veryicon.com/png/o/system/background-system-2/common-module.png" },
     { title: 'Lessons', completed: 9, total: 10, color: '#FBAB5D', url: "https://cdn-icons-png.flaticon.com/512/2825/2825096.png" },
     { title: 'Projects', completed: 2, total: 10, color: '#FBAB5D', url: "https://static.thenounproject.com/png/1969751-200.png" },
     { title: 'Quizzes', completed: 7, total: 10, color: '#8A70D6',url: "https://www.svgrepo.com/show/245649/test-exam.svg" }

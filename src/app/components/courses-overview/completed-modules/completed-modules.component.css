@@ -1,6 +1,149 @@
 .completed-modules {
     width: 1092px;
     height: 311px;
-    background-color: white;
+    background-color: #fff;
     border-radius: 20px;
+    display: flex;
+}
+
+.completed-modules-logo {
+    padding-left: 42px;
+    padding-top: 51px;
+    padding-right: 44px;
+    
+}
+.module-numer {
+    
+    text-align: center;
+    width: 85px;
+    /* width: 78px; */
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #413E3E;
+}
+.module-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.module-heading {
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+    gap:0;
+}
+
+.module-heading-main {
+    
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding-top: 41px;
+    padding-bottom: 9px;
+}
+
+.module-heading-level {
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: #B7B7B7;
+    padding-top: 43px;
+    margin: 0;
+    padding-left: 53px;
+    padding-bottom: 15px;
+}
+
+.about-the-module {
+    
+    font-size: 18px;
+    color: #413E3E;
+    width: 900px;
+    height: 44px;
+    margin-bottom: 19px;
+}
+
+.module-completion-count {
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.journey-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.journey-heading, .journey-completion {
+    font-size: 18px;
+    font-weight: 500;
+    color: #413E3E;
+    margin-right: 113px;
+}
+
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: scale(0.7);
+    margin: -15px;
+    margin-right: 0px;
+}
+
+.progress-circle {
+    transform: rotate(-90deg);
+}
+
+.progress-bg,
+.progress-fill {
+    fill: none;
+    stroke-width: 8px;
+}
+
+.progress-bg {
+    stroke: #000000;
+}
+
+.progress-fill {
+    stroke: #FBAB5D;
+    stroke-dasharray: 283; /* Approximate circumference for r=45 */
+    stroke-dashoffset: 283; /* Initially hide the stroke */
+    transition: stroke-dashoffset 0.3s;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+}
+
+
+.completion-count {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.view-more {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FBAB5D;
+    margin-top: 33px;
+    margin-left: 7px;
+    cursor: pointer;
 }
